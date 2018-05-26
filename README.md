@@ -28,5 +28,5 @@ dotnet new console
 
 4. プロジェクトを実行する
 ```cmd
-dotnet new run
+dotnet run
 ```
