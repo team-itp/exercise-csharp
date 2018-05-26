@@ -16,13 +16,17 @@ https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.200-windows-x64-
 ```cmd
 mkdir Excercise1
 ```
+2. フォルダに移動する
+```cmd
+cd Excercise1
+```
 
-2. プロジェクトを作成する
+3. プロジェクトを作成する
 ```cmd
 dotnet new console
 ```
 
-3. プロジェクトを実行する
+4. プロジェクトを実行する
 ```cmd
 dotnet new run
 ```
