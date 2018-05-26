@@ -9,6 +9,9 @@
 
 ## コンソールプロジェクトの作り方・実行方法
 
+0. .net SDKをインストールする
+https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.200-windows-x64-installer
+
 1. 作りたいプロジェクト名のフォルダを作る
 ```cmd
 mkdir Excercise1
