@@ -6,10 +6,14 @@ namespace Excercise6
     {
         static void Main(string[] args)
         {
-            for(int i = 1;i<+100;i++){
-                if(i%5 == 0){
+            for (var i = 1; i <= 100; i++)
+            {
+                if (i % 5 == 0)
+                {
                     Console.WriteLine("Buzz");
-                }else{
+                }
+                else
+                {
                     Console.WriteLine(i);
                 }
             }

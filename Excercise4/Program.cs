@@ -10,13 +10,22 @@ namespace Excercise4
             var inputText = Console.ReadLine();
             Console.WriteLine("入力値：" + inputText);
 
-            int inputNumber = 0;
-            if (int.TryParse(inputText, out inputNumber) && inputNumber > 0){
-                for(int i = 1;i <= inputNumber;i++){
-                    Console.WriteLine( i + "回目：Hello, World");
-                }
-            }else{
-                Console.WriteLine("正の整数に変換できません");
+            var inputNumber = 0;
+            if (!int.TryParse(inputText, out inputNumber))
+            {
+                Console.WriteLine("整数に変換できません");
+                return;
+            }
+
+            if (inputNumber <= 0)
+            {
+                Console.WriteLine("正の整数を入力してください");
+                return;
+            }
+
+            for (var i = 1; i <= inputNumber; i++)
+            {
+                Console.WriteLine(i + "回目：Hello, World");
             }
         }
     }

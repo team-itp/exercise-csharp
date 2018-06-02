@@ -8,24 +8,36 @@ namespace Excercise8
         {
             Console.Write("正の整数を入力してください：");
             var inputText = Console.ReadLine();
-            int inputNumber = 0;
-            bool isPrimeNumber = true;
-            if (int.TryParse(inputText, out inputNumber)　&& inputNumber > 0){
-                for(int i = 2;i < inputNumber/2 + 1;i++){
-                    if(inputNumber%i == 0){
+            var inputNumber = 0;
+            var isPrimeNumber = true;
+            if (!int.TryParse(inputText, out inputNumber))
+            {
+                Console.WriteLine("入力した値は整数ではありません");
+                return;
+            }
+
+            if (inputNumber <= 0)
+            {
+                Console.WriteLine("入力した値は正の整数ではありません");
+                return;
+            }
+
+            for (var i = 2; i < inputNumber / 2 + 1; i++)
+                {
+                    if (inputNumber % i == 0)
+                    {
                         isPrimeNumber = false;
                         break;
                     }
                 }
-                if(isPrimeNumber){
+                if (isPrimeNumber)
+                {
                     Console.WriteLine("入力した値は素数です");
-                }else{
-                    Console.WriteLine("入力した値は素数ではありません");    
                 }
-
-            }else{
-                Console.WriteLine("入力した値は正の整数ではありません");
-            }
+                else
+                {
+                    Console.WriteLine("入力した値は素数ではありません");
+                }
         }
     }
 }
