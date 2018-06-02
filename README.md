@@ -13,7 +13,7 @@
 
 ## コンソールプロジェクトの作り方・実行方法
 
-0. .net SDKをインストールする
+0. .net Core SDK をインストールする
 
 https://www.microsoft.com/net/download
 
@@ -34,4 +34,22 @@ dotnet new console
 4. プロジェクトを実行する
 ```cmd
 dotnet run
+```
+
+## 実行を簡単にする
+
+以下のコマンドをバッチファイルとして保存して簡単に実行できるようにします。
+
+**run.cmd**
+
+```cmd
+cd %1
+dotnet run
+cd ..
+```
+
+さらに簡単に
+
+```cmd
+cd %1 && dotnet run && cd ..
 ```
