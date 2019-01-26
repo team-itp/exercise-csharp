@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar1", "Calendar1\Calendar1.csproj", "{87B75F89-EE76-4D90-898C-0245D1594770}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar2", "Calendar2\Calendar2.csproj", "{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{87B75F89-EE76-4D90-898C-0245D1594770}.Release|x64.Build.0 = Release|Any CPU
 		{87B75F89-EE76-4D90-898C-0245D1594770}.Release|x86.ActiveCfg = Release|Any CPU
 		{87B75F89-EE76-4D90-898C-0245D1594770}.Release|x86.Build.0 = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|x64.Build.0 = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC29A3AA-E4CD-43C9-A16B-EFFBD16449FE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
