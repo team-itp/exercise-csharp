@@ -17,39 +17,48 @@
 
 https://www.microsoft.com/net/download
 
-1. 作りたいプロジェクト名のフォルダを作る
+1. プロジェクトを作成する
 ```cmd
-mkdir Excercise1
+dotnet new console -n Excercise1
 ```
+
 2. フォルダに移動する
 ```cmd
 cd Excercise1
 ```
 
-3. プロジェクトを作成する
-```cmd
-dotnet new console
-```
-
-4. プロジェクトを実行する
+3. プロジェクトを実行する
 ```cmd
 dotnet run
 ```
 
-## 実行を簡単にする
+## ソリューションの作り方
 
-以下のコマンドをバッチファイルとして保存して簡単に実行できるようにします。
+ソリューションはプロジェクトをまとめる単位。プロジェクトをソリューションに
+追加すると VSCode で複数のプロジェクトが認識されるようになる。
 
-**run.cmd**
+.NETの (割と) 一般的なフォルダ構成は以下のようになっている
 
-```cmd
-cd %1
-dotnet run
-cd ..
+```
+プロジェクトルート
+ + Excercise1
+ |  + Excercise1.csproj
+ |  + Program.cs
+ + Excercise2
+ |  + Excercise2.csproj
+ |  + Program.cs
+ + excercise.sln
 ```
 
-さらに簡単に
-
+1. ソリューションを作成する
 ```cmd
-cd %1 && dotnet run && cd ..
+dotnet new sln -n excercise.sln
 ```
+
+2. ソリューションにプロジェクトを追加する
+```
+dotnet sln add Excercise1\Excercise1.csproj
+```
+
+* ソリューションのあるフォルダで実行する
+* add の後ろは .csproj ファイルの相対パス
