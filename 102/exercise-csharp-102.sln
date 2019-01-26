@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar5", "Calendar5\Cale
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar6", "Calendar6\Calendar6.csproj", "{1041A4CC-A383-4161-8CC5-EC4AAA1ED3B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar7", "Calendar7\Calendar7.csproj", "{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{1041A4CC-A383-4161-8CC5-EC4AAA1ED3B2}.Release|x64.Build.0 = Release|Any CPU
 		{1041A4CC-A383-4161-8CC5-EC4AAA1ED3B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{1041A4CC-A383-4161-8CC5-EC4AAA1ED3B2}.Release|x86.Build.0 = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|x64.Build.0 = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BD6E991-26B1-4AA9-BE7C-46F5A22ADEAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
